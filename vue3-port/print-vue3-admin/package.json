@@ -1,0 +1,36 @@
+{
+  "name": "print-vue3-admin",
+  "version": "2.0.0",
+  "description": "基于 vue3 + view-design-plus + vite 的 web 在线打印管理系统（升级自 print-vue2-iview-admin）",
+  "author": "dukelyu <duke.lv@hotmail.com>",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5000"
+  },
+  "dependencies": {
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "pinia": "^2.1.7",
+    "view-design-plus": "^4.2.0",
+    "axios": "^1.6.8",
+    "vue-clipboard3": "^2.0.0",
+    "echarts": "^5.5.0",
+    "nprogress": "^0.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0",
+    "vite-plugin-vue-devtools": "^7.0.18",
+    "sass": "^1.72.0",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0",
+    "mockjs": "^1.1.0"
+  },
+  "engines": {
+    "node": ">= 16.0.0",
+    "npm": ">= 8.0.0"
+  }
+}
